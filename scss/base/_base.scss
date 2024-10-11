@@ -1,37 +1,25 @@
-html {
+*,
+::before,
+::after {
   box-sizing: border-box;
+}
+
+html {
   font-size: 62.5%;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
+
 body {
   font-size: 1.6rem;
   font-family: Gordita, sans-serif;
 }
-input,
-textarea,
-select,
-button {
-  outline: none;
-}
-input {
-  line-height: normal;
-}
-label,
-button {
-  cursor: pointer;
-}
+
 a {
+  color: inherit;
   text-decoration: none;
 }
-img {
-  display: block;
-  max-width: 100%;
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
 }

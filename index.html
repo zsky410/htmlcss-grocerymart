@@ -22,17 +22,29 @@
 
     <!-- Fonts -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
-    <style>
-      body {
-        font-family: Gordita, sans-serif;
-      }
-    </style>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <!-- Scripts -->
+    <script src="./assets/js/scripts.js"></script>
   </head>
   <body>
-    <h1>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-      asperiores, eius, sapiente nisi vitae beatae nobis, culpa sint iste quidem
-      ex mollitia iusto eaque? Nobis repudiandae vero cum ducimus impedit!
-    </h1>
+    <!-- Header -->
+    <header id="header" class="header"></header>
+    <script>
+      load("#header", "./template/header.html");
+    </script>
+
+    <div class="container">
+      <!-- Main -->
+      <h1>Home Page</h1>
+
+      <!-- Footer -->
+      <footer id="footer"></footer>
+      <script>
+        load("#footer", "./template/footer.html");
+      </script>
+    </div>
   </body>
 </html>
